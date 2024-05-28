@@ -1,0 +1,10 @@
+-I
+/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/Qt_6_7_1_for_macOS-Debug/qml
+-I
+/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/Qt_6_7_1_for_macOS-Debug/qml
+-I
+/Users/niklasprobst/Qt/6.7.1/macos/./qml
+--resource
+/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/Qt_6_7_1_for_macOS-Debug/_deps/ds-build/src/imports/flowview/.qt/rcc/FlowView_raw_qml_0.qrc
+--module
+FlowView

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/QtQuick/Studio/EventSystem">
+    <file alias="qmldir">/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/Qt_6_7_1_for_macOS-Debug/qml/QtQuick/Studio/EventSystem/qmldir</file>
+  </qresource>
+</RCC>
+

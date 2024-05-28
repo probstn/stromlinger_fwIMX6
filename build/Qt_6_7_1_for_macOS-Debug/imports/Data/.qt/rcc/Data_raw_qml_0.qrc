@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/qt/qml/Data/">
+    <file alias="Values.qml">/Users/niklasprobst/Desktop/Example/ClusterTutorial/imports/Data/Values.qml</file>
+    <file alias="simulation.js">/Users/niklasprobst/Desktop/Example/ClusterTutorial/imports/Data/simulation.js</file>
+  </qresource>
+</RCC>
+

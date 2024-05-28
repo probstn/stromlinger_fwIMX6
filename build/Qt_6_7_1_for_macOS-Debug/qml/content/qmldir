@@ -1,0 +1,19 @@
+module content
+linktarget contentplugin
+optional plugin contentplugin
+classname contentPlugin
+typeinfo content.qmltypes
+prefer :/qt/qml/content/
+Fuel_dial_195_43 1.0 Fuel_dial_195_43.ui.qml
+App 1.0 App.qml
+Gearbox_195_196 1.0 Gearbox_195_196.ui.qml
+Cluster_Art 1.0 Cluster_Art.ui.qml
+ClusterTutorial 1.0 ClusterTutorial.qml
+Cherry 1.0 Cherry.qml
+Speed_dial_195_151 1.0 Speed_dial_195_151.ui.qml
+Iso_195_156 1.0 Iso_195_156.ui.qml
+CustomDot 1.0 CustomDot.qml
+Backgrounds_195_610 1.0 Backgrounds_195_610.ui.qml
+IsoIcon 1.0 IsoIcon.ui.qml
+Rpm_dial_195_83 1.0 Rpm_dial_195_83.ui.qml
+
