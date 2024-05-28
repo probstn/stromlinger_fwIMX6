@@ -62,7 +62,7 @@ QtObject {
 
     /* speedometer dial values */
     property real kph /* controls the needle / arc position */
-    property string displayKph: backend.numbersGenerated
+    property string displayKph: backend.speed
     property string displayKpl: "100"
 
     /* fuel gauge dial values */
@@ -91,7 +91,7 @@ QtObject {
     property Timer rpmTimer: Timer{
         running: !values.booting
         repeat: true
-        onTriggered: backend.generateNumber(1000, 5000);
+        onTriggered: backend.updateSpeed();
         interval: 5
     }
 

@@ -6,19 +6,18 @@
 Backend::Backend(QObject *parent)
     : QObject(parent)
 {
+    QObject::connect(this, &Backend::signalSpeed, this, &Backend::demoSlot); //here we connect the signalSpeed to the demoSlot to demonstrate how slots get activated if connected signals get emitted
 }
 
-void Backend::generateNumber(int min, int max)
+void Backend::updateSpeed()
 {
-    int num = rand() % ((max + 1) - min) + min;
-    emit numberEmitted(num);
+    int num = rand() % 100;
 
-    m_numbersGenerated = QString::number(num);
-    emit updateToNumbersGenerated();
+    m_speed = QString::number(num);
+    emit signalSpeed();
 }
 
-void Backend::onUpdateToNumbersGenerated()
+void Backend::demoSlot()
 {
-    // Add any additional logic if needed when the property updates
-       qInfo() << "Property updated in backend.cpp";
+    qInfo() << "demo Slot activated";
 }

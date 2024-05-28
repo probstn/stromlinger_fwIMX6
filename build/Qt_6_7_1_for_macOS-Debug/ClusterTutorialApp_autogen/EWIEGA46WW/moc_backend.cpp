@@ -40,15 +40,11 @@ constexpr auto qt_meta_stringdata_CLASSBackendENDCLASS = QtMocHelpers::stringDat
     "Backend",
     "QML.Element",
     "auto",
-    "numberEmitted",
+    "signalSpeed",
     "",
-    "num",
-    "updateToNumbersGenerated",
-    "onUpdateToNumbersGenerated",
-    "generateNumber",
-    "min",
-    "max",
-    "numbersGenerated"
+    "demoSlot",
+    "updateSpeed",
+    "speed"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
@@ -61,38 +57,36 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSBackendENDCLASS[] = {
       12,       // revision
        0,       // classname
        1,   14, // classinfo
-       4,   16, // methods
-       1,   50, // properties
+       3,   16, // methods
+       1,   37, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-       2,       // signalCount
+       1,       // signalCount
 
  // classinfo: key, value
        1,    2,
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       3,    1,   40,    4, 0x06,    2 /* Public */,
-       6,    0,   43,    4, 0x06,    4 /* Public */,
+       3,    0,   34,    4, 0x06,    2 /* Public */,
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       7,    0,   44,    4, 0x0a,    5 /* Public */,
+       5,    0,   35,    4, 0x0a,    3 /* Public */,
 
  // methods: name, argc, parameters, tag, flags, initial metatype offsets
-       8,    2,   45,    4, 0x02,    6 /* Public */,
+       6,    0,   36,    4, 0x02,    4 /* Public */,
 
  // signals: parameters
-    QMetaType::Void, QMetaType::Int,    5,
     QMetaType::Void,
 
  // slots: parameters
     QMetaType::Void,
 
  // methods: parameters
-    QMetaType::Void, QMetaType::Int, QMetaType::Int,    9,   10,
+    QMetaType::Void,
 
  // properties: name, type, flags
-      11, QMetaType::QString, 0x00015003, uint(1), 0,
+       7, QMetaType::QString, 0x00015003, uint(0), 0,
 
        0        // eod
 };
@@ -104,21 +98,16 @@ Q_CONSTINIT const QMetaObject Backend::staticMetaObject = { {
     qt_static_metacall,
     nullptr,
     qt_metaTypeArray<
-        // property 'numbersGenerated'
+        // property 'speed'
         QString,
         // Q_OBJECT / Q_GADGET
         Backend,
-        // method 'numberEmitted'
+        // method 'signalSpeed'
         void,
-        int,
-        // method 'updateToNumbersGenerated'
+        // method 'demoSlot'
         void,
-        // method 'onUpdateToNumbersGenerated'
-        void,
-        // method 'generateNumber'
-        void,
-        int,
-        int
+        // method 'updateSpeed'
+        void
     >,
     nullptr
 } };
@@ -129,25 +118,17 @@ void Backend::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
         auto *_t = static_cast<Backend *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: _t->numberEmitted((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
-        case 1: _t->updateToNumbersGenerated(); break;
-        case 2: _t->onUpdateToNumbersGenerated(); break;
-        case 3: _t->generateNumber((*reinterpret_cast< std::add_pointer_t<int>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<int>>(_a[2]))); break;
+        case 0: _t->signalSpeed(); break;
+        case 1: _t->demoSlot(); break;
+        case 2: _t->updateSpeed(); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
-            using _t = void (Backend::*)(int );
-            if (_t _q_method = &Backend::numberEmitted; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
-                *result = 0;
-                return;
-            }
-        }
-        {
             using _t = void (Backend::*)();
-            if (_t _q_method = &Backend::updateToNumbersGenerated; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
-                *result = 1;
+            if (_t _q_method = &Backend::signalSpeed; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 0;
                 return;
             }
         }
@@ -156,7 +137,7 @@ void Backend::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
         (void)_t;
         void *_v = _a[0];
         switch (_id) {
-        case 0: *reinterpret_cast< QString*>(_v) = _t->m_numbersGenerated; break;
+        case 0: *reinterpret_cast< QString*>(_v) = _t->m_speed; break;
         default: break;
         }
     } else if (_c == QMetaObject::WriteProperty) {
@@ -165,9 +146,9 @@ void Backend::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
         void *_v = _a[0];
         switch (_id) {
         case 0:
-            if (_t->m_numbersGenerated != *reinterpret_cast< QString*>(_v)) {
-                _t->m_numbersGenerated = *reinterpret_cast< QString*>(_v);
-                Q_EMIT _t->updateToNumbersGenerated();
+            if (_t->m_speed != *reinterpret_cast< QString*>(_v)) {
+                _t->m_speed = *reinterpret_cast< QString*>(_v);
+                Q_EMIT _t->signalSpeed();
             }
             break;
         default: break;
@@ -175,6 +156,7 @@ void Backend::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
     } else if (_c == QMetaObject::ResetProperty) {
     } else if (_c == QMetaObject::BindableProperty) {
     }
+    (void)_a;
 }
 
 const QMetaObject *Backend::metaObject() const
@@ -196,13 +178,13 @@ int Backend::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 4)
+        if (_id < 3)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 4;
+        _id -= 3;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 4)
+        if (_id < 3)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 4;
+        _id -= 3;
     }else if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
             || _c == QMetaObject::ResetProperty || _c == QMetaObject::BindableProperty
             || _c == QMetaObject::RegisterPropertyMetaType) {
@@ -213,15 +195,8 @@ int Backend::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 }
 
 // SIGNAL 0
-void Backend::numberEmitted(int _t1)
+void Backend::signalSpeed()
 {
-    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
-    QMetaObject::activate(this, &staticMetaObject, 0, _a);
-}
-
-// SIGNAL 1
-void Backend::updateToNumbersGenerated()
-{
-    QMetaObject::activate(this, &staticMetaObject, 1, nullptr);
+    QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
 }
 QT_WARNING_POP
