@@ -3,8 +3,8 @@
 
 
 set_source_files_properties(Values.qml
-        PROPERTIES
-                QT_QML_SINGLETON_TYPE true
+	PROPERTIES
+		QT_QML_SINGLETON_TYPE true
 )
 
 qt_add_library(Data STATIC)
@@ -12,10 +12,9 @@ qt6_add_qml_module(Data
     URI "Data"
     VERSION 1.0
     RESOURCE_PREFIX "/qt/qml"
-        QML_FILES
-                "Values.qml"
-        RESOURCES
-                "simulation.js"
-                SOURCES
-                QML_FILES
+	QML_FILES
+		"Values.qml"
+	RESOURCES
+		"simulation.js"
 )
+

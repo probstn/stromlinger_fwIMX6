@@ -57,25 +57,25 @@ QtObject {
     id: values
 
     /* tachometer dial values */
-    property int rpm // controls the needle / arc position
-    property string displayRpm: "0"
+    property int rpm: backend.rpm // controls the needle / arc position
+    property string displayRpm: backend.displayRpm
 
     /* speedometer dial values */
-    property real kph /* controls the needle / arc position */
-    property string displayKph: backend.speed
-    property string displayKpl: "100"
+    property real kph: backend.kph /* controls the needle / arc position */
+    property string displayKph: backend.displayKph
+    property string displayKpl: backend.displayKpl
 
     /* fuel gauge dial values */
-    property int liters /* controls the needle / arc position */
-    property string displayLiters: "110"
-    property string displayRange: "1100"
+    property int liters: backend.liters /* controls the needle / arc position */
+    property string displayLiters: backend.displayLiters
+    property string displayRange: backend.displayRange
 
     /* current gear */
-    property int currentGear: 1
+    property int currentGear: backend.currentGear
 
     /* Iso Icons Boolean Values */
-    property bool engineTemp
-    property bool fuelLevel
+    property bool engineTemp: backend.engineTemp
+    property bool fuelLevel: backend.fuelLevel
 
     /* State change bool */
     property bool booting: true
@@ -91,24 +91,28 @@ QtObject {
     property Timer rpmTimer: Timer{
         running: !values.booting
         repeat: true
-        onTriggered: backend.updateSpeed();
-        interval: 5
+        onTriggered: backend.updateRpm();
+        interval: 1000
     }
 
-    /*
     property Timer kphTimer: Timer{
         running: !values.booting
         repeat: true
-        onTriggered: JS.kphTimer()
-        interval: 10
+        onTriggered: backend.updateSpeed();
+        interval: 1000
     }
 
     property Timer litersTimer: Timer{
         running: !values.booting
-        //running: true
         repeat: true
-        onTriggered: JS.litersTimer()
-        interval: 100
+        onTriggered: backend.updateFuel();
+        interval: 1000
     }
-    */
+
+    property Timer miscTimer: Timer{
+        running: !values.booting
+        repeat: true
+        onTriggered: backend.updateMisc();
+        interval: 1000
+    }
 }

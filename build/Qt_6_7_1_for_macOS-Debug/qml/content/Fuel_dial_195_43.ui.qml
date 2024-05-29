@@ -126,11 +126,11 @@ Item {
 
             Text {
                 id: liters_195_13
-                x: 21
+                x: 3
                 y: -5
                 height: 25
                 color: "#FFFFFF"
-                text: "KWH"
+                text: "LITERS"
                 font.weight: Font.ExtraLight
                 font.pixelSize: 19
                 font.family: "IBM Plex Mono"
@@ -386,28 +386,15 @@ Item {
                 source: "assets/fuel_needle_195_27.png"
             }
         }
-
-        GlowItem {
-            id: glow
-            x: -48
-            y: 60
-            width: 356
-            height: 324
-            color: "#e24141"
-            radius: 11.7
-            samples: 32
-            spread: 0.7
-
-            PieItem {
-                id: pie
-                x: 47
-                y: 33
-                width: 264
-                height: 264
-                fillColor: "#00ffffff"
-                strokeWidth: 4.5
-                end: 360
-            }
+        PieItem {
+            id: pie
+            x: -1
+            y: 93
+            width: 264
+            height: 264
+            fillColor: "#00ffffff"
+            strokeWidth: 4.5
+            end: 360
         }
 
         Image {
@@ -1129,174 +1116,6 @@ Item {
             Keyframe {
                 frame: 1100
                 value: "#3eee6b"
-            }
-        }
-
-        KeyframeGroup {
-            target: glow
-            property: "radius"
-            Keyframe {
-                frame: 0
-                value: 11.7
-            }
-
-            Keyframe {
-                frame: 20
-                value: 0
-            }
-
-            Keyframe {
-                frame: 40
-                value: 11.7
-            }
-
-            Keyframe {
-                frame: 60
-                value: 0
-            }
-
-            Keyframe {
-                frame: 80
-                value: 11.7
-            }
-
-            Keyframe {
-                frame: 100
-                value: 0
-            }
-
-            Keyframe {
-                frame: 120
-                value: 11.7
-            }
-
-            Keyframe {
-                frame: 140
-                value: 0
-            }
-
-            Keyframe {
-                frame: 160
-                value: 11.7
-            }
-
-            Keyframe {
-                frame: 180
-                value: 0
-            }
-
-            Keyframe {
-                frame: 200
-                value: 11.7
-            }
-
-            Keyframe {
-                frame: 220
-                value: 0
-            }
-
-            Keyframe {
-                frame: 240
-                value: 11.7
-            }
-
-            Keyframe {
-                frame: 260
-                value: 0
-            }
-
-            Keyframe {
-                frame: 280
-                value: 11.7
-            }
-
-            Keyframe {
-                frame: 300
-                value: 0
-            }
-        }
-
-        KeyframeGroup {
-            target: glow
-            property: "spread"
-            Keyframe {
-                frame: 0
-                value: 0.7
-            }
-
-            Keyframe {
-                frame: 20
-                value: 0
-            }
-
-            Keyframe {
-                frame: 40
-                value: 0.7
-            }
-
-            Keyframe {
-                frame: 60
-                value: 0
-            }
-
-            Keyframe {
-                frame: 80
-                value: 0.7
-            }
-
-            Keyframe {
-                frame: 100
-                value: 0
-            }
-
-            Keyframe {
-                frame: 120
-                value: 0.7
-            }
-
-            Keyframe {
-                frame: 140
-                value: 0
-            }
-
-            Keyframe {
-                frame: 160
-                value: 0.7
-            }
-
-            Keyframe {
-                frame: 180
-                value: 0
-            }
-
-            Keyframe {
-                frame: 200
-                value: 0.7
-            }
-
-            Keyframe {
-                frame: 220
-                value: 0
-            }
-
-            Keyframe {
-                frame: 240
-                value: 0.7
-            }
-
-            Keyframe {
-                frame: 260
-                value: 0
-            }
-
-            Keyframe {
-                frame: 280
-                value: 0.7
-            }
-
-            Keyframe {
-                frame: 300
-                value: 0
             }
         }
     }

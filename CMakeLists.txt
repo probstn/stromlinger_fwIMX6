@@ -20,7 +20,7 @@ if (Qt6_VERSION VERSION_GREATER_EQUAL 6.3)
 endif()
 
 qt_add_executable(${CMAKE_PROJECT_NAME}
-    "main.cpp"
+    "src/main.cpp"
     "backend.cpp"
     "backend.h"
 )

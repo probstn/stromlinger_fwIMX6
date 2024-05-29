@@ -5,13 +5,6 @@
 #include <QtCore/qstring.h>
 
 namespace QmlCacheGeneratedCode {
-namespace _qt_qml_ClusterTutorial_EventListSimulator_qml { 
-    extern const unsigned char qmlData[];
-    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
-    const QQmlPrivate::CachedQmlUnit unit = {
-        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
-    };
-}
 namespace _qt_qml_ClusterTutorial_DirectoryFontLoader_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
@@ -20,6 +13,13 @@ namespace _qt_qml_ClusterTutorial_DirectoryFontLoader_qml {
     };
 }
 namespace _qt_qml_ClusterTutorial_Constants_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_ClusterTutorial_EventListSimulator_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
     const QQmlPrivate::CachedQmlUnit unit = {
@@ -47,9 +47,9 @@ Q_GLOBAL_STATIC(Registry, unitRegistry)
 
 
 Registry::Registry() {
-    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/ClusterTutorial/EventListSimulator.qml"), &QmlCacheGeneratedCode::_qt_qml_ClusterTutorial_EventListSimulator_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/ClusterTutorial/DirectoryFontLoader.qml"), &QmlCacheGeneratedCode::_qt_qml_ClusterTutorial_DirectoryFontLoader_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/ClusterTutorial/Constants.qml"), &QmlCacheGeneratedCode::_qt_qml_ClusterTutorial_Constants_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/ClusterTutorial/EventListSimulator.qml"), &QmlCacheGeneratedCode::_qt_qml_ClusterTutorial_EventListSimulator_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/ClusterTutorial/EventListModel.qml"), &QmlCacheGeneratedCode::_qt_qml_ClusterTutorial_EventListModel_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;

@@ -9,9 +9,9 @@
 /Users/niklasprobst/Desktop/Example/ClusterTutorial/build/Qt_6_7_1_for_macOS-Debug/imports/ClusterTutorial/.qt/rcc/qmake_ClusterTutorial.qrc
 --resource
 /Users/niklasprobst/Desktop/Example/ClusterTutorial/build/Qt_6_7_1_for_macOS-Debug/imports/ClusterTutorial/.qt/rcc/ClusterTutorial_raw_qml_0.qrc
-/Users/niklasprobst/Desktop/Example/ClusterTutorial/imports/ClusterTutorial/EventListSimulator.qml
 /Users/niklasprobst/Desktop/Example/ClusterTutorial/imports/ClusterTutorial/DirectoryFontLoader.qml
 /Users/niklasprobst/Desktop/Example/ClusterTutorial/imports/ClusterTutorial/Constants.qml
+/Users/niklasprobst/Desktop/Example/ClusterTutorial/imports/ClusterTutorial/EventListSimulator.qml
 /Users/niklasprobst/Desktop/Example/ClusterTutorial/imports/ClusterTutorial/EventListModel.qml
 --json
 /Users/niklasprobst/Desktop/Example/ClusterTutorial/build/Qt_6_7_1_for_macOS-Debug/ClusterTutorial_qmllint.json

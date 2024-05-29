@@ -5,41 +5,6 @@
 #include <QtCore/qstring.h>
 
 namespace QmlCacheGeneratedCode {
-namespace _qt_qml_content_Fuel_dial_195_43_ui_0x2e_qml { 
-    extern const unsigned char qmlData[];
-    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
-    const QQmlPrivate::CachedQmlUnit unit = {
-        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
-    };
-}
-namespace _qt_qml_content_App_qml { 
-    extern const unsigned char qmlData[];
-    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
-    const QQmlPrivate::CachedQmlUnit unit = {
-        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
-    };
-}
-namespace _qt_qml_content_Gearbox_195_196_ui_0x2e_qml { 
-    extern const unsigned char qmlData[];
-    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
-    const QQmlPrivate::CachedQmlUnit unit = {
-        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
-    };
-}
-namespace _qt_qml_content_Cluster_Art_ui_0x2e_qml { 
-    extern const unsigned char qmlData[];
-    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
-    const QQmlPrivate::CachedQmlUnit unit = {
-        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
-    };
-}
-namespace _qt_qml_content_ClusterTutorial_qml { 
-    extern const unsigned char qmlData[];
-    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
-    const QQmlPrivate::CachedQmlUnit unit = {
-        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
-    };
-}
 namespace _qt_qml_content_Cherry_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
@@ -54,7 +19,14 @@ namespace _qt_qml_content_Speed_dial_195_151_ui_0x2e_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
-namespace _qt_qml_content_Iso_195_156_ui_0x2e_qml { 
+namespace _qt_qml_content_Fuel_dial_195_43_ui_0x2e_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_content_Gearbox_195_196_ui_0x2e_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
     const QQmlPrivate::CachedQmlUnit unit = {
@@ -62,13 +34,6 @@ namespace _qt_qml_content_Iso_195_156_ui_0x2e_qml {
     };
 }
 namespace _qt_qml_content_CustomDot_qml { 
-    extern const unsigned char qmlData[];
-    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
-    const QQmlPrivate::CachedQmlUnit unit = {
-        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
-    };
-}
-namespace _qt_qml_content_Backgrounds_195_610_ui_0x2e_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
     const QQmlPrivate::CachedQmlUnit unit = {
@@ -89,6 +54,41 @@ namespace _qt_qml_content_Rpm_dial_195_83_ui_0x2e_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _qt_qml_content_ClusterTutorial_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_content_Backgrounds_195_610_ui_0x2e_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_content_Cluster_Art_ui_0x2e_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_content_App_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_content_Iso_195_156_ui_0x2e_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 
 }
 namespace {
@@ -103,18 +103,18 @@ Q_GLOBAL_STATIC(Registry, unitRegistry)
 
 
 Registry::Registry() {
-    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/content/Fuel_dial_195_43.ui.qml"), &QmlCacheGeneratedCode::_qt_qml_content_Fuel_dial_195_43_ui_0x2e_qml::unit);
-    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/content/App.qml"), &QmlCacheGeneratedCode::_qt_qml_content_App_qml::unit);
-    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/content/Gearbox_195_196.ui.qml"), &QmlCacheGeneratedCode::_qt_qml_content_Gearbox_195_196_ui_0x2e_qml::unit);
-    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/content/Cluster_Art.ui.qml"), &QmlCacheGeneratedCode::_qt_qml_content_Cluster_Art_ui_0x2e_qml::unit);
-    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/content/ClusterTutorial.qml"), &QmlCacheGeneratedCode::_qt_qml_content_ClusterTutorial_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/content/Cherry.qml"), &QmlCacheGeneratedCode::_qt_qml_content_Cherry_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/content/Speed_dial_195_151.ui.qml"), &QmlCacheGeneratedCode::_qt_qml_content_Speed_dial_195_151_ui_0x2e_qml::unit);
-    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/content/Iso_195_156.ui.qml"), &QmlCacheGeneratedCode::_qt_qml_content_Iso_195_156_ui_0x2e_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/content/Fuel_dial_195_43.ui.qml"), &QmlCacheGeneratedCode::_qt_qml_content_Fuel_dial_195_43_ui_0x2e_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/content/Gearbox_195_196.ui.qml"), &QmlCacheGeneratedCode::_qt_qml_content_Gearbox_195_196_ui_0x2e_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/content/CustomDot.qml"), &QmlCacheGeneratedCode::_qt_qml_content_CustomDot_qml::unit);
-    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/content/Backgrounds_195_610.ui.qml"), &QmlCacheGeneratedCode::_qt_qml_content_Backgrounds_195_610_ui_0x2e_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/content/IsoIcon.ui.qml"), &QmlCacheGeneratedCode::_qt_qml_content_IsoIcon_ui_0x2e_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/content/Rpm_dial_195_83.ui.qml"), &QmlCacheGeneratedCode::_qt_qml_content_Rpm_dial_195_83_ui_0x2e_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/content/ClusterTutorial.qml"), &QmlCacheGeneratedCode::_qt_qml_content_ClusterTutorial_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/content/Backgrounds_195_610.ui.qml"), &QmlCacheGeneratedCode::_qt_qml_content_Backgrounds_195_610_ui_0x2e_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/content/Cluster_Art.ui.qml"), &QmlCacheGeneratedCode::_qt_qml_content_Cluster_Art_ui_0x2e_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/content/App.qml"), &QmlCacheGeneratedCode::_qt_qml_content_App_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/content/Iso_195_156.ui.qml"), &QmlCacheGeneratedCode::_qt_qml_content_Iso_195_156_ui_0x2e_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

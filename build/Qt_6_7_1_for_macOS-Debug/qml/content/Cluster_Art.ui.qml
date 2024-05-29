@@ -54,11 +54,12 @@ import QtQuick.Timeline 1.0
 import Data 1.0 as Data
 import QtQuick.Studio.Components 1.0
 import QtQuick.Studio.Effects 1.0
+import ClusterTutorial
 
 Item {
     id: cluster_Art
-    width: 1920
-    height: 1080
+    width: 3456
+    height: 2234
 
     Image {
         id: cluster_ArtAsset
@@ -70,6 +71,8 @@ Item {
     Backgrounds_195_610 {
         x: 0
         y: 0
+        width: 3456
+        height: 2280
     }
 
     Item {
@@ -99,6 +102,7 @@ Item {
         y: 491
         width: 512
         height: 630
+        visible: true
         rangeDisplay: Data.Values.displayRange
         litersDisplay: Data.Values.displayLiters
         fuelFrame: Data.Values.liters
