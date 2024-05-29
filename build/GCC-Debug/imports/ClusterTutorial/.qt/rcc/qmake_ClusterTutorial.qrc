@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/ClusterTutorial">
+    <file alias="qmldir">/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/qml/ClusterTutorial/qmldir</file>
+  </qresource>
+</RCC>
+

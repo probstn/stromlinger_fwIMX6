@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/">
-    <file alias="/qt/qml/Data">/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/Qt_6_7_1_for_macOS-Debug/qml/Data</file>
-
-  </qresource>
-</RCC>

@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/">
-    <file alias="/FlowView">/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/Qt_6_7_1_for_macOS-Debug/qml/FlowView</file>
-
-  </qresource>
-</RCC>

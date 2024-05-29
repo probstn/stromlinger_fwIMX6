@@ -1,0 +1,16 @@
+--bare
+-I
+/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/qml
+-I
+/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/qml
+-I
+/Users/niklasprobst/Qt/6.7.1/macos/./qml
+--resource
+/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/_deps/ds-build/src/imports/multitext/.qt/rcc/qmake_QtQuick_Studio_MultiText.qrc
+--resource
+/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/_deps/ds-build/src/imports/multitext/.qt/rcc/QuickStudioMultiText_raw_qml_0.qrc
+/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/_deps/ds-src/src/imports/multitext/MultiTextElement.qml
+/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/_deps/ds-src/src/imports/multitext/MultiTextItem.qml
+/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/_deps/ds-src/src/imports/multitext/MultiTextException.qml
+--json
+/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/QuickStudioMultiText_qmllint.json

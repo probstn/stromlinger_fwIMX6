@@ -1,0 +1,5 @@
+--resource
+/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/.qt/rcc/qmake_Main.qrc
+--resource
+/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/.qt/rcc/Main_raw_qml_0.qrc
+/qt/qml/Main/main.qml

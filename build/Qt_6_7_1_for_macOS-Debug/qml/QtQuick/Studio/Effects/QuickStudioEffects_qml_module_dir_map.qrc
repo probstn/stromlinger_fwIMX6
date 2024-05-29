@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/">
-    <file alias="/QtQuick/Studio/Effects">/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/Qt_6_7_1_for_macOS-Debug/qml/QtQuick/Studio/Effects</file>
-
-  </qresource>
-</RCC>

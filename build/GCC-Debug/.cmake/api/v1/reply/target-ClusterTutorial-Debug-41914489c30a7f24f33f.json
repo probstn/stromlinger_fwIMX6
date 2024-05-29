@@ -1,0 +1,692 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "imports/ClusterTutorial/libClusterTutorial.a"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_qt_internal_add_library",
+			"qt6_add_library",
+			"qt_add_library",
+			"add_dependencies",
+			"qt6_target_qml_sources",
+			"qt6_add_qml_module",
+			"target_link_libraries",
+			"target_include_directories",
+			"_qt_internal_qml_type_registration",
+			"target_sources",
+			"qt6_extract_metatypes",
+			"__qt_propagate_generated_resource",
+			"_qt_internal_process_resource",
+			"qt6_add_resources",
+			"_qt_internal_target_enable_qmlcachegen",
+			"_qt_internal_expose_deferred_files_to_ide",
+			"qt6_finalize_target"
+		],
+		"files" : 
+		[
+			"/Users/niklasprobst/Qt/6.7.1/macos/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"imports/ClusterTutorial/CMakeLists.txt",
+			"/Users/niklasprobst/Qt/6.7.1/macos/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake",
+			"/Users/niklasprobst/Qt/6.7.1/macos/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:743:EVAL"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 2682,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2564,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2659,
+				"parent" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 647,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 2747,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 392,
+				"parent" : 5
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 541,
+				"parent" : 5
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 3099,
+				"parent" : 9
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 2899,
+				"parent" : 9
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 1415,
+				"parent" : 11
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 3065,
+				"parent" : 9
+			},
+			{
+				"command" : 14,
+				"file" : 2,
+				"line" : 590,
+				"parent" : 5
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 337,
+				"parent" : 14
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 15
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 16
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 2531,
+				"parent" : 6
+			},
+			{
+				"command" : 15,
+				"file" : 2,
+				"line" : 2635,
+				"parent" : 6
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 1244,
+				"parent" : 19
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 2683,
+				"parent" : 6
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 2531,
+				"parent" : 6
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 2683,
+				"parent" : 6
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 2531,
+				"parent" : 6
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 2683,
+				"parent" : 6
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 2531,
+				"parent" : 6
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 2683,
+				"parent" : 6
+			},
+			{
+				"command" : 14,
+				"file" : 2,
+				"line" : 2766,
+				"parent" : 6
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 337,
+				"parent" : 28
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 29
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 30
+			},
+			{
+				"file" : 1,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 17,
+				"file" : 3,
+				"line" : 1,
+				"parent" : 32
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 768,
+				"parent" : 33
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 2117,
+				"parent" : 34
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DQT_QML_DEBUG -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 8,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_QMLBUILTINS_LIB"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_QMLINTEGRATION_LIB"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_QML_LIB"
+				}
+			],
+			"frameworks" : 
+			[
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/Users/niklasprobst/Qt/6.7.1/macos/lib/QtCore.framework"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/Users/niklasprobst/Qt/6.7.1/macos/lib/QtQml.framework"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/Users/niklasprobst/Qt/6.7.1/macos/lib/QtNetwork.framework"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/imports/ClusterTutorial"
+				},
+				{
+					"path" : "/Users/niklasprobst/Desktop/Example/ClusterTutorial/imports/ClusterTutorial"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/imports/ClusterTutorial/ClusterTutorial_autogen/include"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/Users/niklasprobst/Qt/6.7.1/macos/lib/QtQml.framework/Versions/A/Headers/6.7.1"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/Users/niklasprobst/Qt/6.7.1/macos/lib/QtQml.framework/Versions/A/Headers/6.7.1/QtQml"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/Users/niklasprobst/Qt/6.7.1/macos/lib/QtCore.framework/Versions/A/Headers/6.7.1"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/Users/niklasprobst/Qt/6.7.1/macos/lib/QtCore.framework/Versions/A/Headers/6.7.1/QtCore"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/Users/niklasprobst/Qt/6.7.1/macos/lib/QtCore.framework/Headers"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/Users/niklasprobst/Qt/6.7.1/macos/mkspecs/macx-clang"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/Users/niklasprobst/Qt/6.7.1/macos/include"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/Users/niklasprobst/Qt/6.7.1/macos/include/QtQmlBuiltins/6.7.1"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/Users/niklasprobst/Qt/6.7.1/macos/include/QtQmlBuiltins/6.7.1/QtQmlBuiltins"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/Users/niklasprobst/Qt/6.7.1/macos/include/QtQmlBuiltins"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/Users/niklasprobst/Qt/6.7.1/macos/lib/QtQml.framework/Headers"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/Users/niklasprobst/Qt/6.7.1/macos/include/QtQmlIntegration"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/Users/niklasprobst/Qt/6.7.1/macos/lib/QtNetwork.framework/Headers"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					8
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				3,
+				5,
+				6,
+				8,
+				10,
+				12,
+				13
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "ClusterTutorial_autogen_timestamp_deps::@4b445f8f2976a70b11d7"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "ClusterTutorial_autogen::@4b445f8f2976a70b11d7"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "ClusterTutorial_tooling::@4b445f8f2976a70b11d7"
+		}
+	],
+	"id" : "ClusterTutorial::@4b445f8f2976a70b11d7",
+	"name" : "ClusterTutorial",
+	"nameOnDisk" : "libClusterTutorial.a",
+	"paths" : 
+	{
+		"build" : "imports/ClusterTutorial",
+		"source" : "imports/ClusterTutorial"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files\\Generated",
+			"sourceIndexes" : 
+			[
+				0,
+				17
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				1,
+				4,
+				7,
+				9,
+				11,
+				14,
+				15,
+				16,
+				29,
+				30,
+				31,
+				32
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				2,
+				3,
+				5,
+				6,
+				8,
+				10,
+				12,
+				13
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/GCC-Debug/imports/ClusterTutorial/ClusterTutorial_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"isGenerated" : true,
+			"path" : "build/GCC-Debug/imports/ClusterTutorial/meta_types/qt6clustertutorial_debug_metatypes.json.gen",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 13,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/GCC-Debug/imports/ClusterTutorial/clustertutorial_qmltyperegistrations.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 17,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/GCC-Debug/imports/ClusterTutorial/.qt/rcc/qrc_qmake_ClusterTutorial.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 18,
+			"path" : "imports/ClusterTutorial/DirectoryFontLoader.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 20,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/GCC-Debug/imports/ClusterTutorial/.rcc/qmlcache/ClusterTutorial_qmlcache_loader.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 21,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/GCC-Debug/imports/ClusterTutorial/.rcc/qmlcache/ClusterTutorial_DirectoryFontLoader_qml.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 22,
+			"path" : "imports/ClusterTutorial/Constants.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 23,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/GCC-Debug/imports/ClusterTutorial/.rcc/qmlcache/ClusterTutorial_Constants_qml.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 24,
+			"path" : "imports/ClusterTutorial/EventListSimulator.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/GCC-Debug/imports/ClusterTutorial/.rcc/qmlcache/ClusterTutorial_EventListSimulator_qml.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 26,
+			"path" : "imports/ClusterTutorial/EventListModel.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 27,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/GCC-Debug/imports/ClusterTutorial/.rcc/qmlcache/ClusterTutorial_EventListModel_qml.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/GCC-Debug/imports/ClusterTutorial/.qt/rcc/qrc_ClusterTutorial_raw_qml_0.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 35,
+			"isGenerated" : true,
+			"path" : "build/GCC-Debug/imports/ClusterTutorial/.qt/rcc/qmake_ClusterTutorial.qrc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 35,
+			"isGenerated" : true,
+			"path" : "build/GCC-Debug/qml/ClusterTutorial/qmldir",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 35,
+			"isGenerated" : true,
+			"path" : "build/GCC-Debug/imports/ClusterTutorial/.qt/rcc/ClusterTutorial_raw_qml_0.qrc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/GCC-Debug/imports/ClusterTutorial/ClusterTutorial_autogen/timestamp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/GCC-Debug/imports/ClusterTutorial/meta_types/qt6clustertutorial_debug_metatypes.json.gen.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/GCC-Debug/imports/ClusterTutorial/clustertutorial_qmltyperegistrations.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/GCC-Debug/imports/ClusterTutorial/.qt/rcc/qrc_qmake_ClusterTutorial.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/GCC-Debug/imports/ClusterTutorial/.rcc/qmlcache/ClusterTutorial_qmlcache_loader.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/GCC-Debug/imports/ClusterTutorial/.rcc/qmlcache/ClusterTutorial_DirectoryFontLoader_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/GCC-Debug/imports/ClusterTutorial/.rcc/qmlcache/ClusterTutorial_Constants_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/GCC-Debug/imports/ClusterTutorial/.rcc/qmlcache/ClusterTutorial_EventListSimulator_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/GCC-Debug/imports/ClusterTutorial/.rcc/qmlcache/ClusterTutorial_EventListModel_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/GCC-Debug/imports/ClusterTutorial/.qt/rcc/qrc_ClusterTutorial_raw_qml_0.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/GCC-Debug/imports/ClusterTutorial/ClusterTutorial_autogen/timestamp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/GCC-Debug/imports/ClusterTutorial/meta_types/ClusterTutorial_json_file_list.txt.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 8,
+			"path" : "/Users/niklasprobst/Qt/6.7.1/macos/metatypes/qt6qml_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"path" : "/Users/niklasprobst/Qt/6.7.1/macos/metatypes/qt6core_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"path" : "/Users/niklasprobst/Qt/6.7.1/macos/metatypes/qt6qmlbuiltins_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"path" : "/Users/niklasprobst/Qt/6.7.1/macos/metatypes/qt6network_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

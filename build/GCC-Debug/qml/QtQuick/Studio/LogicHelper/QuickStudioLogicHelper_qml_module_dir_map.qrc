@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/QtQuick/Studio/LogicHelper">/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/qml/QtQuick/Studio/LogicHelper</file>
+
+  </qresource>
+</RCC>

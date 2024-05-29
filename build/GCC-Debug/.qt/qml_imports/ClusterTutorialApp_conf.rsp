@@ -1,0 +1,11 @@
+-rootPath
+/Users/niklasprobst/Desktop/Example/ClusterTutorial
+-cmake-output
+-output-file
+/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/.qt/qml_imports/ClusterTutorialApp_conf.cmake
+-importPath
+/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/qml
+-importPath
+/Users/niklasprobst/Qt/6.7.1/macos/./qml
+-qrcFiles
+/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/.qt/rcc/configuration.qrc

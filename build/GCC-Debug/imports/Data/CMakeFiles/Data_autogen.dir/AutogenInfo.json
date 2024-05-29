@@ -1,0 +1,118 @@
+{
+	"BUILD_DIR" : "/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/imports/Data/Data_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/imports/Data",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/niklasprobst/Desktop/Example/ClusterTutorial/imports/Data",
+	"CMAKE_EXECUTABLE" : "/Users/niklasprobst/Qt/Tools/CMake/CMake.app/Contents/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/Users/niklasprobst/Desktop/Example/ClusterTutorial/imports/Data/CMakeLists.txt",
+		"/Users/niklasprobst/Qt/6.7.1/macos/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
+		"/Users/niklasprobst/Qt/6.7.1/macos/lib/cmake/Qt6Core/Qt6CoreResourceInit.in.cpp",
+		"/Users/niklasprobst/Qt/6.7.1/macos/lib/cmake/Qt6Qml/Qt6QmlPluginTemplate.cpp.in",
+		"/Users/niklasprobst/Qt/6.7.1/macos/lib/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in",
+		"/Users/niklasprobst/Qt/6.7.1/macos/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
+		"/Users/niklasprobst/Qt/6.7.1/macos/lib/cmake/Qt6Core/Qt6CoreResourceInit.in.cpp",
+		"/Users/niklasprobst/Qt/6.7.1/macos/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in",
+		"/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/imports/Data/Dataplugin_DataPlugin_in.cpp"
+	],
+	"CMAKE_SOURCE_DIR" : "/Users/niklasprobst/Desktop/Example/ClusterTutorial",
+	"DEP_FILE" : "/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/imports/Data/Data_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "Data_autogen/timestamp",
+	"HEADERS" : [],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/imports/Data/Data_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/imports/Data/Data_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_NETWORK_LIB",
+		"QT_QMLBUILTINS_LIB",
+		"QT_QMLINTEGRATION_LIB",
+		"QT_QML_LIB"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/imports/Data",
+		"/Users/niklasprobst/Desktop/Example/ClusterTutorial/imports/Data",
+		"/Users/niklasprobst/Qt/6.7.1/macos/lib/QtQml.framework/Versions/A/Headers/6.7.1",
+		"/Users/niklasprobst/Qt/6.7.1/macos/lib/QtQml.framework/Versions/A/Headers/6.7.1/QtQml",
+		"/Users/niklasprobst/Qt/6.7.1/macos/lib/QtCore.framework/Versions/A/Headers/6.7.1",
+		"/Users/niklasprobst/Qt/6.7.1/macos/lib/QtCore.framework/Versions/A/Headers/6.7.1/QtCore",
+		"/Users/niklasprobst/Qt/6.7.1/macos/lib/QtCore.framework/Headers",
+		"/Users/niklasprobst/Qt/6.7.1/macos/lib/QtCore.framework",
+		"/Users/niklasprobst/Qt/6.7.1/macos/mkspecs/macx-clang",
+		"/Users/niklasprobst/Qt/6.7.1/macos/include",
+		"/Users/niklasprobst/Qt/6.7.1/macos/include/QtQmlBuiltins/6.7.1",
+		"/Users/niklasprobst/Qt/6.7.1/macos/include/QtQmlBuiltins/6.7.1/QtQmlBuiltins",
+		"/Users/niklasprobst/Qt/6.7.1/macos/include/QtQmlBuiltins",
+		"/Users/niklasprobst/Qt/6.7.1/macos/lib/QtQml.framework/Headers",
+		"/Users/niklasprobst/Qt/6.7.1/macos/lib/QtQml.framework",
+		"/Users/niklasprobst/Qt/6.7.1/macos/include/QtQmlIntegration",
+		"/Users/niklasprobst/Qt/6.7.1/macos/lib/QtNetwork.framework/Headers",
+		"/Users/niklasprobst/Qt/6.7.1/macos/lib/QtNetwork.framework",
+		"/usr/include",
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT",
+		"Q_ENUM_NS"
+	],
+	"MOC_OPTIONS" : [ "--output-json" ],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/llvm-g++",
+		"-dM",
+		"-E",
+		"-c",
+		"/Users/niklasprobst/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/imports/Data/Data_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/imports/Data/.qt/rcc/qrc_Data_raw_qml_0.cpp",
+		"/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/imports/Data/.qt/rcc/qrc_Data_raw_qml_0_init.cpp",
+		"/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/imports/Data/.qt/rcc/qrc_qmake_Data.cpp",
+		"/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/imports/Data/.qt/rcc/qrc_qmake_Data_init.cpp",
+		"/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/imports/Data/.rcc/qmlcache/Data_Values_qml.cpp",
+		"/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/imports/Data/.rcc/qmlcache/Data_qmlcache_loader.cpp",
+		"/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/imports/Data/data_qmltyperegistrations.cpp"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 10,
+	"PARSE_CACHE_FILE" : "/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/imports/Data/CMakeFiles/Data_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/Users/niklasprobst/Qt/6.7.1/macos/./libexec/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 7,
+	"SETTINGS_FILE" : "/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/imports/Data/CMakeFiles/Data_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : [],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : 
+	[
+		"/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/imports/Data/.qt/rcc/qrc_Data_raw_qml_0.cpp",
+		"/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/imports/Data/.qt/rcc/qrc_Data_raw_qml_0_init.cpp",
+		"/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/imports/Data/.qt/rcc/qrc_qmake_Data.cpp",
+		"/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/imports/Data/.qt/rcc/qrc_qmake_Data_init.cpp",
+		"/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/imports/Data/.rcc/qmlcache/Data_Values_qml.cpp",
+		"/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/imports/Data/.rcc/qmlcache/Data_qmlcache_loader.cpp",
+		"/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/imports/Data/data_qmltyperegistrations.cpp"
+	],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}
