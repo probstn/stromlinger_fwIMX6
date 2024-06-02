@@ -1,7 +1,0 @@
-module Main
-linktarget Mainplugin
-optional plugin Mainplugin
-classname MainPlugin
-typeinfo Main.qmltypes
-prefer :/qt/qml/Main/
-

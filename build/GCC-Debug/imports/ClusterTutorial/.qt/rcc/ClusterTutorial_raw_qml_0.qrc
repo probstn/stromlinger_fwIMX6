@@ -1,9 +1,0 @@
-<RCC>
-  <qresource prefix="/qt/qml/ClusterTutorial/">
-    <file alias="DirectoryFontLoader.qml">/Users/niklasprobst/Desktop/Example/ClusterTutorial/imports/ClusterTutorial/DirectoryFontLoader.qml</file>
-    <file alias="Constants.qml">/Users/niklasprobst/Desktop/Example/ClusterTutorial/imports/ClusterTutorial/Constants.qml</file>
-    <file alias="EventListSimulator.qml">/Users/niklasprobst/Desktop/Example/ClusterTutorial/imports/ClusterTutorial/EventListSimulator.qml</file>
-    <file alias="EventListModel.qml">/Users/niklasprobst/Desktop/Example/ClusterTutorial/imports/ClusterTutorial/EventListModel.qml</file>
-  </qresource>
-</RCC>
-

@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/">
-    <file alias="/qt/qml/content">/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/qml/content</file>
-
-  </qresource>
-</RCC>

@@ -1,8 +1,0 @@
---resource
-/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/imports/ClusterTutorial/.qt/rcc/qmake_ClusterTutorial.qrc
---resource
-/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/imports/ClusterTutorial/.qt/rcc/ClusterTutorial_raw_qml_0.qrc
-/qt/qml/ClusterTutorial/DirectoryFontLoader.qml
-/qt/qml/ClusterTutorial/Constants.qml
-/qt/qml/ClusterTutorial/EventListSimulator.qml
-/qt/qml/ClusterTutorial/EventListModel.qml

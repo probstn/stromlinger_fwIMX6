@@ -1,6 +1,0 @@
---resource
-/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/_deps/ds-build/src/imports/tools/eventsimulator/.qt/rcc/qmake_QtQuick_Studio_EventSimulator.qrc
---resource
-/Users/niklasprobst/Desktop/Example/ClusterTutorial/build/GCC-Debug/_deps/ds-build/src/imports/tools/eventsimulator/.qt/rcc/QuickStudioEventSimulator_raw_qml_0.qrc
-/QtQuick/Studio/EventSimulator/EventSimulator.qml
-/QtQuick/Studio/EventSimulator/EventSimulatorDelegate.qml
