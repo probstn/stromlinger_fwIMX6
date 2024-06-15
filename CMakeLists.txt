@@ -27,8 +27,8 @@ qt_add_executable(${CMAKE_PROJECT_NAME}
 
 qt_add_resources(${CMAKE_PROJECT_NAME} "configuration"
     PREFIX "/"
-	FILES
-		qtquickcontrols2.conf
+        FILES
+                qtquickcontrols2.conf
 )
 
 target_link_libraries(${CMAKE_PROJECT_NAME} PRIVATE

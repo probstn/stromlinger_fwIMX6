@@ -3,6 +3,7 @@
 
 add_subdirectory(content)
 add_subdirectory(imports)
+add_subdirectory(Generated)
 
 qt_add_library(Main STATIC)
 qt6_add_qml_module(Main
@@ -18,4 +19,5 @@ target_link_libraries(${CMAKE_PROJECT_NAME} PRIVATE
 	contentplugin
 	Dataplugin
 	ClusterTutorialplugin
+	Generated_QtQuick3D_Testplugin
 )
