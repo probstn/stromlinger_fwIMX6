@@ -53,14 +53,16 @@ import QtQuick 2.8
 
 Rectangle {
     id: backgrounds_195_610
-    width: 1921
-    height: 1081
+    width: 1024
+    height: 600
     color: "black"
 
     Image {
         id: backgrounds_195_610Asset
         x: 0
         y: 0
+        width: 1024
+        height: 600
         source: "assets/backgrounds_195_610.jpg"
     }
 }

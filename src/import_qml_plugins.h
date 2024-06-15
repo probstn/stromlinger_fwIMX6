@@ -7,5 +7,5 @@
 
 Q_IMPORT_QML_PLUGIN(MainPlugin)
 Q_IMPORT_QML_PLUGIN(contentPlugin)
-Q_IMPORT_QML_PLUGIN(DataPlugin)
 Q_IMPORT_QML_PLUGIN(ClusterTutorialPlugin)
+Q_IMPORT_QML_PLUGIN(DataPlugin)

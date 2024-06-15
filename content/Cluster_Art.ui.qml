@@ -58,29 +58,32 @@ import ClusterTutorial
 
 Item {
     id: cluster_Art
-    width: 3456
-    height: 2234
+    width: 1024
+    height: 600
 
     Image {
         id: cluster_ArtAsset
         x: 0
         y: 0
+        width: 1024
+        height: 600
         source: "assets/Cluster_Art.png"
     }
 
     Backgrounds_195_610 {
         x: 0
         y: 0
-        width: 3456
-        height: 2280
+        width: 1024
+        height: 600
     }
 
     Item {
         id: isoIconsEffect
-        x: 510
-        y: 809
+        x: 52
+        y: 400
         width: 920
         height: 142
+        scale: 0.5
 
         Iso_195_156 {
             id: isoIcons
@@ -98,11 +101,12 @@ Item {
 
     Fuel_dial_195_43 {
         id: fuelDial
-        x: 1453
-        y: 491
+        x: 635
+        y: 129
         width: 512
         height: 630
         visible: true
+        scale: 0.5
         rangeDisplay: Data.Values.displayRange
         litersDisplay: Data.Values.displayLiters
         fuelFrame: Data.Values.liters
@@ -112,22 +116,23 @@ Item {
         id: rpmDial
         width: 508
         height: 591
-        x: 69
-        y: 485
+        scale: 0.5
+        x: -86
+        y: 148
         displayRpm: Data.Values.displayRpm
         rpmFrame: Data.Values.rpm
     }
 
     FlipableItem {
         id: flipable
-        x: 566
-        y: 8
+        x: 123
+        y: -150
         width: 778
         height: 730
-        opacity: 1
+        scale: 0.6
 
         Speed_dial_195_151 {
-            x: 95
+            x: 84
             y: 91
             kplDisplay: Data.Values.displayKpl
             kphDisplay: Data.Values.displayKph
@@ -245,7 +250,7 @@ Item {
 
             Keyframe {
                 easing.bezierCurve: [0.95, 0.05, 0.80, 0.04, 1, 1]
-                value: 1
+                value: 0.5
                 frame: 3294
             }
         }
@@ -284,9 +289,8 @@ Item {
             }
 
             Keyframe {
-                frame: 3294
-                value: 1
-                easing.bezierCurve: [0.95, 0.05, 0.80, 0.04, 1, 1]
+                value: 0.5
+                frame: 3293
             }
         }
 
@@ -305,9 +309,8 @@ Item {
             }
 
             Keyframe {
-                easing.bezierCurve: [0.07, 0.82, 0.17, 1.00, 1, 1]
-                value: 1
-                frame: 3473
+                value: 0.5
+                frame: 3480
             }
         }
 

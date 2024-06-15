@@ -32,8 +32,8 @@ import QtQuick.Window 2.15
 import ClusterTutorial 1.0
 
 Window {
-    width: Constants.width
-    height: Constants.height
+    width: 1024
+    height: 600
 
     visible: true
     title: "ClusterTutorial"
