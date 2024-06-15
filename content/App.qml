@@ -30,6 +30,7 @@
 import QtQuick 2.15
 import QtQuick.Window 2.15
 import ClusterTutorial 1.0
+import QtQuick.Controls
 
 Window {
     width: 1024
@@ -38,7 +39,20 @@ Window {
     visible: true
     title: "ClusterTutorial"
 
-    ClusterTutorial {
+    SwipeView {
+        id: swipeView
+        width: 1024
+        height: 600
+        currentIndex: 1
+        clip: true
+
+
+        Cluster_Art {
+            id: cluster
+        }
+        Bms {
+            id: bms
+        }
     }
 
 }

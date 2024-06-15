@@ -128,11 +128,13 @@ Item {
                 id: liters_195_13
                 x: 3
                 y: -5
+                width: 69
                 height: 25
                 color: "#FFFFFF"
-                text: "LITERS"
+                text: "KWH"
                 font.weight: Font.ExtraLight
                 font.pixelSize: 19
+                horizontalAlignment: Text.AlignHCenter
                 font.family: "IBM Plex Mono"
             }
         }
