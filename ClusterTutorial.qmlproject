@@ -47,4 +47,6 @@ Project {
     Files {
         filter: "*.ttf;*.otf"
     }
+
+    mainUiFile: "content/MapPage.qml"
 }

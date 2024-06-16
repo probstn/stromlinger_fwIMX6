@@ -30,7 +30,7 @@
 import QtQuick 2.15
 import QtQuick.Window 2.15
 import ClusterTutorial 1.0
-import QtQuick.Controls
+import QtQuick.Controls 2.15
 
 Window {
     width: 1024
@@ -43,16 +43,26 @@ Window {
         id: swipeView
         width: 1024
         height: 600
-        currentIndex: 1
+        interactive: false
+        currentIndex: nav.tabBarCurrentIndex
         clip: true
 
+        Bms_Page {
+            id: bms
+        }
 
         Cluster_Art {
-            id: cluster
+            id: speed
         }
-        Bms {
-            id: bms
+
+        MapPage {
+            id: map
         }
     }
 
+    Nav {
+        id: nav
+        anchors.bottom: parent.bottom
+        width: parent.width
+    }
 }

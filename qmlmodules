@@ -17,7 +17,7 @@ qt6_add_qml_module(Main
 target_link_libraries(${CMAKE_PROJECT_NAME} PRIVATE
 	Mainplugin
 	contentplugin
-	Dataplugin
 	ClusterTutorialplugin
+	Dataplugin
 	Generated_QtQuick3D_Testplugin
 )

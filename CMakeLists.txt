@@ -19,16 +19,12 @@ if (Qt6_VERSION VERSION_GREATER_EQUAL 6.3)
     qt_standard_project_setup()
 endif()
 
-qt_add_executable(${CMAKE_PROJECT_NAME}
-    "src/main.cpp"
-    "backend.cpp"
-    "backend.h"
-)
+qt_add_executable(${CMAKE_PROJECT_NAME} "src/main.cpp")
 
 qt_add_resources(${CMAKE_PROJECT_NAME} "configuration"
     PREFIX "/"
-        FILES
-                qtquickcontrols2.conf
+	FILES
+		qtquickcontrols2.conf
 )
 
 target_link_libraries(${CMAKE_PROJECT_NAME} PRIVATE
