@@ -258,215 +258,99 @@ Item {
                 frame: 3293
             }
         }
+
+        KeyframeGroup {
+            target: tire
+            property: "scale"
+            Keyframe {
+                value: 0.01
+                frame: 0
+            }
+
+            Keyframe {
+                value: 0.01
+                frame: 2386
+            }
+
+            Keyframe {
+                value: 1.0038
+                frame: 3293
+            }
+        }
     }
 
-    SwipeView {
-        id: swipeView
-        y: 414
+    Item {
+        id: tire
+        y: 415
         width: 400
         height: 186
-        anchors.bottom: parent.bottom
-        anchors.bottomMargin: 0
-        orientation: Qt.Vertical
         clip: true
-        currentIndex: 1
-        anchors.horizontalCenterOffset: 0
+        scale: 1.004
         anchors.horizontalCenter: parent.horizontalCenter
 
-        Item {
-            x: 0
+        Image {
+            id: tire_left
+            x: 10
             y: 0
-        }
-        Item {
-            id: tire
-            width: 400
-            height: 186
+            width: 146
+            height: 185
+            anchors.verticalCenter: parent.verticalCenter
+            source: "assets/tires.webp"
+            rotation: 0
+            anchors.horizontalCenterOffset: -100
+            anchors.horizontalCenter: parent.horizontalCenter
+            fillMode: Image.PreserveAspectFit
 
-            Image {
-                id: tire_left
-                x: 10
-                y: 0
-                width: 146
-                height: 185
-                anchors.verticalCenter: parent.verticalCenter
-                source: "assets/tires.webp"
-                rotation: 0
-                anchors.horizontalCenterOffset: -100
-                anchors.horizontalCenter: parent.horizontalCenter
-                fillMode: Image.PreserveAspectFit
-
-                Rectangle {
-                    id: rect_left
-                    x: 171
-                    y: 18
-                    width: 3
-                    height: 150
-                    color: "#ffffff"
-                    anchors.horizontalCenter: parent.horizontalCenter
-                    z: -1
-                }
-            }
-
-            Image {
-                id: tire_right
-                x: 210
-                y: 0
-                width: 146
-                height: 185
-                anchors.verticalCenter: parent.verticalCenter
-                source: "assets/tires.webp"
-                mipmap: true
-                anchors.horizontalCenterOffset: 100
-                anchors.horizontalCenter: parent.horizontalCenter
-                fillMode: Image.PreserveAspectFit
-
-                Rectangle {
-                    id: rect_right
-                    x: -29
-                    y: 18
-                    width: 3
-                    height: 150
-                    color: "#ffffff"
-                    anchors.horizontalCenter: parent.horizontalCenter
-                    z: -1
-                }
-            }
-
-            Text {
-                id: rotation_number
-                x: 246
-                y: 65
-                visible: true
+            Rectangle {
+                id: rect_left
+                x: 171
+                y: 18
+                width: 3
+                height: 150
                 color: "#ffffff"
-                text: " 0°"
-                anchors.verticalCenter: parent.verticalCenter
-                font.pixelSize: 40
-                horizontalAlignment: Text.AlignHCenter
-                anchors.horizontalCenterOffset: 0
                 anchors.horizontalCenter: parent.horizontalCenter
-                font.family: "AppleSystemUIFont"
+                z: -1
             }
         }
-        Item {
-            id: temps
-            width: 400
-            height: 186
 
-            Grid {
-                id: grid
-                anchors.verticalCenter: parent.verticalCenter
+        Image {
+            id: tire_right
+            x: 210
+            y: 0
+            width: 146
+            height: 185
+            anchors.verticalCenter: parent.verticalCenter
+            source: "assets/tires.webp"
+            mipmap: true
+            anchors.horizontalCenterOffset: 100
+            anchors.horizontalCenter: parent.horizontalCenter
+            fillMode: Image.PreserveAspectFit
+
+            Rectangle {
+                id: rect_right
+                x: -29
+                y: 18
+                width: 3
+                height: 150
+                color: "#ffffff"
                 anchors.horizontalCenter: parent.horizontalCenter
-                verticalItemAlignment: Grid.AlignVCenter
-                horizontalItemAlignment: Grid.AlignHCenter
-                columns: 3
-                rows: 3
-                padding: 5
-
-                Text {
-                    id: motor_text
-                    width: 135
-                    height: 50
-                    color: "#ffffff"
-                    text: "motor"
-                    font.pixelSize: 30
-                    horizontalAlignment: Text.AlignHCenter
-                    verticalAlignment: Text.AlignVCenter
-                    font.italic: false
-                    font.bold: false
-                    font.family: "Cherry"
-                }
-
-                Image {
-                    id: motor_icon
-                    width: 50
-                    height: 50
-                    source: "icons/engineIconOff.png"
-                    mirror: true
-                    fillMode: Image.PreserveAspectFit
-                }
-
-                Text {
-                    id: motor_temp
-                    width: 135
-                    height: 50
-                    color: "#ffffff"
-                    text: "40°C"
-                    font.pixelSize: 30
-                    horizontalAlignment: Text.AlignHCenter
-                    verticalAlignment: Text.AlignVCenter
-                    font.family: "Cherry"
-                }
-
-                Text {
-                    id: esc_text
-                    width: 135
-                    height: 50
-                    color: "#ffffff"
-                    text: "esc"
-                    font.pixelSize: 30
-                    horizontalAlignment: Text.AlignHCenter
-                    verticalAlignment: Text.AlignVCenter
-                    font.italic: false
-                    font.family: "Cherry"
-                    font.bold: false
-                }
-
-                Image {
-                    id: esc_icon
-                    width: 50
-                    height: 50
-                    source: "icons/engineIconOff.png"
-                    mirror: true
-                    fillMode: Image.PreserveAspectFit
-                }
-
-                Text {
-                    id: esc_temp
-                    width: 135
-                    height: 50
-                    color: "#ffffff"
-                    text: "40°C"
-                    font.pixelSize: 30
-                    horizontalAlignment: Text.AlignHCenter
-                    verticalAlignment: Text.AlignVCenter
-                    font.family: "Cherry"
-                }
-
-                Text {
-                    id: bat_text
-                    width: 135
-                    height: 50
-                    color: "#ffffff"
-                    text: "esc"
-                    font.pixelSize: 30
-                    horizontalAlignment: Text.AlignHCenter
-                    verticalAlignment: Text.AlignVCenter
-                    font.italic: false
-                    font.family: "Cherry"
-                    font.bold: false
-                }
-
-                Image {
-                    id: bat_icon
-                    width: 50
-                    height: 50
-                    source: "icons/engineIconOff.png"
-                    mirror: true
-                    fillMode: Image.PreserveAspectFit
-                }
-
-                Text {
-                    id: bat_temp
-                    width: 135
-                    height: 50
-                    color: "#ffffff"
-                    text: "40°C"
-                    font.pixelSize: 30
-                    horizontalAlignment: Text.AlignHCenter
-                    verticalAlignment: Text.AlignVCenter
-                    font.family: "Cherry"
-                }
+                z: -1
             }
+        }
+
+        Text {
+            id: rotation_number
+            x: 246
+            y: 65
+            visible: true
+            color: "#ffffff"
+            text: " 0°"
+            anchors.verticalCenter: parent.verticalCenter
+            font.pixelSize: 40
+            horizontalAlignment: Text.AlignHCenter
+            anchors.horizontalCenterOffset: 0
+            anchors.horizontalCenter: parent.horizontalCenter
+            font.family: "AppleSystemUIFont"
         }
     }
 
@@ -483,6 +367,7 @@ Item {
         font.pixelSize: 40
         padding: 20
     }
+
 
     states: [
         State {
@@ -507,11 +392,6 @@ Item {
                 target: bootTImeline
                 currentFrame: 5000
                 enabled: true
-            }
-
-            PropertyChanges {
-                target: grid
-                height: 186
             }
         }
     ]

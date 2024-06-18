@@ -5,25 +5,16 @@ import QtQuick.Layouts 1.15
 Item {
     id: item1
     visible: true
-    property alias tabBarCurrentIndex: tabBar.currentIndex
+    property alias swipeViewCurrentIndex: swipeView.currentIndex
     width: 1024
     height: 600
 
-    TabBar {
-        id: tabBar
-        x: 392
-        y: 554
-        width: 240
-        currentIndex: 1
-
-        TabButton {
-            text: qsTr("Health")
-        }
-        TabButton {
-            text: qsTr("Speed")
-        }
-        TabButton {
-            text: qsTr("Map")
-        }
+    SwipeView {
+        id: swipeView
+        x: 0
+        y: 416
+        width: 1024
+        height: 184
+        currentIndex: 0
     }
 }
